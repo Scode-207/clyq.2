@@ -1,0 +1,16 @@
+CLYQ - World's First Social Commerce Ecosystem
+CLYQ redefines commerce: commerce is not just tied to you alone, it is tied to the entire world around you. Our platform enables users to buy, sell, plan and live along with friends and family through the world's first multi-domain social commerce ecosystem.
+
+Social Commerce Revolution: While Amazon lets YOU buy items, CLYQ lets YOU ALONG WITH YOUR FRIENDS to plan, analyze, collaborate and buy, sell, and plan trips together. Our social feeds create communities where commerce becomes shared experiences.
+
+World's First Multi-AI Agent Debate System: Revolutionary three-agent AI system featuring FlightAgent (Groq), TravelAgent (Gemini), and BudgetAgent (Fetch AI) engaging in structured debates for superior travel recommendations. Users witness transparent AI reasoning through controlled discussions, voice interruption capabilities, and real-time collaborative planning.
+
+Advanced AI Thinking Capabilities: Sophisticated AI agents employ multi-step reasoning, contextual analysis, and predictive modeling to understand complex user needs. The system processes vast data in real-time, considering social dynamics, personal preferences, and market trends for intelligent recommendations.
+
+Collaborative Group Planning: Plan trips, analyze purchases, and make decisions with friends and family. Share itineraries, split costs, vote on destinations, and coordinate activities through advanced social planning interface.
+
+Personal Guide AI Agent: Dedicated AI concierge handles ordering, reserving, and booking restaurants through natural conversation. Simply say "book romantic dinner" and watch it handle everything from availability to confirmation.
+
+Advanced Fraud Detection: Industry-leading fraud detection system (mocked for testing) analyzes seller patterns, price anomalies, and communication behaviors. Group verification allows friends to validate sellers, creating community-driven safety networks.
+
+Hyper-Personalization Engine: AI-driven personalization learns from individual and group behaviors, predicting preferences before users know them. Location-aware intelligence provides real-time social discovery.

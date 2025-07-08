@@ -1,0 +1,120 @@
+Core Visual Theme: Dark Luxury
+Primary Background: #0E0E0F (true dark with a subtle blue-black tint)
+
+Accent Colors:
+
+Electric Blue (#00B4FF) for highlights, buttons, and active states
+
+Soft Gradient Accent: Electric Blue fading to Deep Purple (#6C00FF) for premium CTA buttons
+
+Font:
+
+Primary: SF Pro Display / Inter / Helvetica Neue (semi-bold for headings, regular for body)
+
+Color: #FFFFFF for pure text, #CCCCCC for secondary labels, #999999 for placeholder text
+
+🖥️ 💡 Layout & Structure (Fast, Clean)
+🗂️ 1. Full-Screen Split View Layout
+✅ Left Sidebar (10-15% width) – Persistent Navigation
+
+Minimal icons only (no labels by default)
+
+Icons: Home, Conversations, Life Graph, Marketplace, Settings
+
+On hover: Smooth label tooltip fades in
+
+Sidebar background: #0B0B0C (slightly darker for separation)
+
+✅ Main View (85-90% width) – Dynamic Content Panel
+
+Soft shadow inner container for luxury depth (box-shadow: inset 0 0 50px rgba(255,255,255,0.02))
+
+Rounded corners (radius: 24px) for classy app feel
+
+💬 2. Top Bar (Optional)
+Semi-transparent (rgba(14,14,15,0.6))
+
+Displays user name, agent greeting, and a small circular profile icon
+
+Right side: Voice input button (microphone) + notifications bell (with minimal dot indicators)
+
+🧠 3. Central Chat & Multimodal Area
+✅ Conversation Feed
+
+Full height scrollable container with fade gradient at top/bottom for elegance
+
+Messages:
+
+User: Right aligned, Electric Blue background (#00B4FF), white text, rounded corners (radius: 16px)
+
+Agent: Left aligned, near-black background (#18191A), electric blue text highlights for actionable suggestions
+
+Timestamps hidden by default, appear on hover for minimal clutter
+
+✅ Multimodal Input Box
+
+Floating input bar anchored at bottom with:
+
+Voice input icon
+
+Text input (transparent with border-bottom only)
+
+Image upload icon (for visual search)
+
+🔮 4. Right Slide-Out Panel (Optional for Knowledge Graph & Insights)
+Hidden by default; expands on click
+
+Displays:
+
+Knowledge Graph Nodes: Minimal node-link visualization (D3.js or Cytoscape.js) with electric blue nodes on black background
+
+Life Insights Feed: Small cards with weekly summaries, proactive suggestions, and life event detections
+
+✨ 5. Animations & Transitions
+Page transitions: 0.4s ease-in-out fade + slight upward slide
+
+Button interactions: Electric blue glow expands softly on hover
+
+Voice input activation: Pulsating electric blue ring around mic icon
+
+🗂️ 📋 Minimalist Feature Hierarchy
+✅ Visible on Load:
+
+Agent greeting + context summary ("Good Evening, ready to sync your plans?")
+
+Conversation feed with last few messages
+
+Bottom input bar with mic + text + image icons
+
+✅ Hidden but Accessible:
+
+Knowledge Graph Panel
+
+Settings
+
+Notifications & detailed life summaries
+
+🔧 Implementation-Specific Tips for Replit
+Avoid stacking too many nested divs → use semantic layout: sidebar, main, footer
+
+Use Tailwind CSS for rapid styling with consistency (bg-[#0E0E0F], text-[#CCCCCC], rounded-2xl, shadow-inner)
+
+Max width constraints on conversation container (max-w-3xl mx-auto) to avoid overly stretched designs on wide screens
+
+Overflow handling with overflow-y-auto + scrollbar-hide for clean scroll areas
+
+Predefine component heights (e.g. sidebar h-full w-16, input bar h-16) to prevent jumpy resizing on input
+
+🖼️ 🔭 Optional Aesthetic Enhancements (If Time Allows)
+✅ Glassmorphism Elements:
+
+For voice input bar or right slide-out panel: rgba backgrounds with subtle blur (backdrop-blur-md) for luxury feel.
+
+✅ Dynamic Gradient Ring on Agent Icon:
+
+When agent is speaking, show a softly rotating electric blue to purple gradient ring around its circular avatar.
+
+✅ Ambient Particle Animation (subtle):
+
+Tiny electric blue particles flowing diagonally behind the conversation feed at ultra low opacity for tech-luxury ambiance.
+

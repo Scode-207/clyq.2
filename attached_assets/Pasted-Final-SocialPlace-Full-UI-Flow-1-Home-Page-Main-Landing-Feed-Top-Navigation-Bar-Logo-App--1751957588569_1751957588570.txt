@@ -1,0 +1,142 @@
+Final SocialPlace Full UI Flow
+🏠 1. Home Page (Main Landing Feed)
+✅ Top Navigation Bar
+
+Logo + App Name
+
+Search bar (products, restaurants, hotels, flights, users)
+
+AI Agent button
+
+Profile icon dropdown
+
+✅ Main Feed Scroll Sections (in order)
+
+🔥 Trending Resale Listings
+
+Grid view of second-hand items
+
+🍔 Nearby Restaurants
+
+Horizontal scroll cards: restaurant image, rating, cuisine type, “View Menu” button
+
+🏨 Recommended Hotels
+
+Horizontal scroll cards: hotel image, price snippet, “View Details” button
+
+✈️ Flight Deals
+
+Horizontal scroll cards: destination, airline, price snippet, “View Details” button
+
+💡 Ideas & Blogs
+
+Posts on product hacks, travel tips, user experiences
+
+👫 Collaborative Trip Plans
+
+Cards showing people planning trips, with a “Join Plan” button
+
+📍 2. Sidebar (Left)
+Quick Filters
+
+All
+
+Marketplace
+
+Restaurants
+
+Hotels
+
+Flights
+
+Blogs & Ideas
+
+Trip Plans
+
+💬 3. AI Assistant Sidebar (Right or Floating Bubble)
+Pops up with:
+
+Fraud check alerts
+
+Negotiation suggestions
+
+Booking confirmations
+
+Trip plan optimization suggestions
+
+🛒 4. Marketplace Page (Detailed)
+Full marketplace with filters by category, price, location.
+
+Product cards → click for detailed view → message seller → rate after purchase.
+
+🍽 5. Restaurants Page
+Filters for cuisine, rating, location.
+
+Card view of restaurants → click → menu + book table + order integration (where API available).
+
+🏨 6. Hotels Page
+Filters for price, amenities, location.
+
+Cards → click for detailed page:
+
+Room types
+
+Amenities
+
+AI agent mock call booking scripts or direct integration if API enabled.
+
+✈️ 7. Flights Page
+Origin, destination input fields.
+
+Date selector.
+
+Results cards → airline logo, timing, price.
+
+AI agent suggests optimal bookings or alternatives.
+
+💡 8. Blogs & Ideas Page
+Feed of posts:
+
+Travel hacks
+
+Product usage ideas
+
+Personal experiences
+
+👫 9. Trip Planner Page
+Public collaborative trips
+
+Title, destination, dates, members joined.
+
+“Join Trip” button → group chat opens.
+
+📝 10. Profile Page
+User details
+
+Listings they posted
+
+Trips they joined or planned
+
+Blogs/ideas posted
+
+🔒 11. AI Fraud Detection Pop-Ups
+In chats and checkout flows.
+
+Shows private warnings if suspicious activity detected.
+
+📱 12. Bottom Navigation Bar (Mobile View)
+Home
+
+Marketplace
+
+Restaurants
+
+Hotels
+
+Flights
+
+Profile
+
+🎯 💥 Key Final Vision Statement
+“One seamless social commerce universe where you buy & sell products, order food, book hotels & flights, share ideas, and plan trips together – all powered by proactive AI agents keeping you safe and helping you decide smarter.”
+
